@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard",
+    "test:full": "standard && ava test/test.js",
+    "standard:fix": "standard --fix"
   },
   "keywords": [],
   "author": "Rune Moskvil Lyngås <rune.moskvil.lyngaas@vtfk.no> (https://github.com/runely)",
   "license": "MIT",
   "dependencies": {
     "@vtfk/logger": "2.4.1",
-    "dotenv": "8.2.0"
+    "dotenv": "8.2.0",
+    "mongodb": "3.6.3",
+    "vtfk-schools-info": "1.1.2"
   },
   "devDependencies": {
     "standard": "16.0.3"

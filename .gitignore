@@ -120,3 +120,4 @@ test/new/*.json
 test/old/*.json
 test/yff/*.json
 data/yff/*.json
+data/yff/*/*.json

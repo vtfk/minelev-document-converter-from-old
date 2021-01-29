@@ -22,19 +22,21 @@
     documents = await oldDb.find({ _id: { $in: objIdDocuments } }).sort({ _id: 1 }).toArray()
   } else {
     logger('info', ['index', 'Henter ALLE dokumenter'])
-    //documents = await oldDb.find({}).sort({ _id: 1 }).toArray()
-    documents = await oldDb.find({ _id: ObjectId('5efde18c3cf2fd0008aaef4d') }).sort({ _id: 1 }).toArray()
+    documents = await oldDb.find({}).sort({ _id: 1 }).toArray()
   }
 
-  logger('info', ['index', 'dokumenter', documents.length])
+  logger('info', ['index', 'dokumenter hentet', documents.length])
 
   const converted = await convert(documents)
-  
-  process.exit(0)
 
-  /*const newDb = await mongo(MONGODB_COLLECTION_NEW, MONGODB_NAME_NEW)
-  if (!newDb || !newDb.isConnected) {
+  const newDb = await mongo(MONGODB_COLLECTION_NEW, MONGODB_NAME_NEW)
+  if (!newDb) {
     logger('error', [MONGODB_COLLECTION_NEW, MONGODB_NAME_NEW, 'not connected'])
     process.exit(1)
-  }*/
+  }
+
+  const result = await newDb.insertMany(converted)
+  logger('info', ['index', 'dokumenter sendt ut', result.insertedCount])
+
+  process.exit(0)
 })()

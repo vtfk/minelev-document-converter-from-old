@@ -1,5 +1,5 @@
 (async () => {
-  const { MONGODB_COLLECTION_OLD, MONGODB_COLLECTION_NEW, MONGODB_NAME_OLD, MONGODB_NAME_NEW } = require('./config')
+  const { MONGODB_COLLECTION_OLD, MONGODB_NAME_OLD } = require('./config')
   const { logger } = require('@vtfk/logger')
   const mongo = require('./lib/get-mongo')
   const args = process.argv.slice(2)

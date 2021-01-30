@@ -2,7 +2,6 @@
   const { MONGODB_COLLECTION_OLD, MONGODB_NAME_OLD } = require('./config')
   const { logger } = require('@vtfk/logger')
   const mongo = require('./lib/get-mongo')
-  const { ObjectId } = require('mongodb')
 
   // get documents from old db
   const oldDb = await mongo(MONGODB_COLLECTION_OLD, MONGODB_NAME_OLD)

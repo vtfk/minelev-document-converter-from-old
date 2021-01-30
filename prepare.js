@@ -1,9 +1,10 @@
 (async () => {
+  const { MONGODB_COLLECTION_OLD, MONGODB_NAME_OLD } = require('./config')
   const { logger } = require('@vtfk/logger')
   const mongo = require('./lib/get-mongo')
 
   // get documents from old db
-  const oldDb = await mongo('documents', 'minelev-dev')
+  const oldDb = await mongo(MONGODB_COLLECTION_OLD, MONGODB_NAME_OLD)
 
   if (!oldDb) {
     logger('error', [MONGODB_COLLECTION_OLD, MONGODB_NAME_OLD, 'not connected'])

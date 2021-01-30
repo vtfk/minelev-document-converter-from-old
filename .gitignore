@@ -118,3 +118,6 @@ dist
 # ignore json file under test
 test/new/*.json
 test/old/*.json
+
+# ignore lib/students.json
+lib/students.json

@@ -21,8 +21,8 @@
     const objIdDocuments = args.map(id => ObjectId(id))
     documents = await oldDb.find({ _id: { $in: objIdDocuments } }).sort({ _id: 1 }).toArray()
   } else {
-    logger('info', ['index', 'Henter ALLE dokumenter'])
-    documents = await oldDb.find({}).sort({ _id: 1 }).toArray()
+    logger('info', ['index', 'Henter ALLE dokumenter (utenom YFF)'])
+    documents = await oldDb.find({ 'documentType': { $ne: 'yff' } }).sort({ _id: 1 }).toArray()
   }
 
   logger('info', ['index', 'dokumenter hentet', documents.length])
@@ -35,8 +35,13 @@
     process.exit(1)
   }
 
-  const result = await newDb.insertMany(converted)
-  logger('info', ['index', 'dokumenter sendt ut', result.insertedCount])
+  try {
+    const result = await newDb.insertMany(converted)
+    logger('info', ['index', 'dokumenter sendt ut', result.insertedCount])
+  } catch (error) {
+    logger('error', ['index', 'dokumenter sendt ut', 'error', error])
+    console.log(error)
+  }
 
   process.exit(0)
 })()

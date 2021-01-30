@@ -119,6 +119,9 @@ dist
 test/new/*.json
 test/old/*.json
 test/backup/*.json
+test/yff/*.json
+data/yff/*.json
+data/yff/*/*.json
 
 # ignore lib/students.json
 lib/students.json

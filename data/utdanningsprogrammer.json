@@ -1,0 +1,342 @@
+[
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/bygg_anleggsteknikk",
+    "kode": "BA",
+    "url": "http://psi.udir.no/kl06/BA",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/BA",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Bygg- og anleggsteknikk",
+      "nb": "Bygg- og anleggsteknikk",
+      "nn": "Bygg- og anleggsteknikk",
+      "en": "Building and Construction",
+      "sme": "Huksen- ja ráhkadusteknihkka"
+    },
+    "kortform": {
+      "default": "Bygg- og anleggsteknikk",
+      "nb": "Bygg- og anleggsteknikk",
+      "nn": "Bygg- og anleggsteknikk",
+      "en": "Building and Construction",
+      "sme": "Huksen- ja ráhkadusteknihkka"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/design_haandverksfag",
+    "kode": "DH",
+    "url": "http://psi.udir.no/kl06/DH",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/DH",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Design og håndverk",
+      "nb": "Design og håndverk",
+      "nn": "Design og handverk",
+      "en": "Design, Arts and Crafts",
+      "sme": "Design ja giehtaduodji"
+    },
+    "kortform": {
+      "default": "Design og håndverk",
+      "nb": "Design og håndverk",
+      "nn": "Design og handverk",
+      "en": "Design, Arts and Crafts",
+      "sme": "Design ja giehtaduodji"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/frisoer_blomster_interioerdesign",
+    "kode": "FD",
+    "url": "http://psi.udir.no/kl06/FD",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/FD",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Frisør, blomster, interiør og eksponeringsdesign",
+      "nb": "Frisør, blomster, interiør og eksponeringsdesign",
+      "nn": "Frisør, blomar, interiør og eksponeringsdesign"
+    },    "kortform": {
+      "default": "Fri., blom., int., eksp.design",
+      "nb": "Fri., blom., int., eksp.design",
+      "nn": "Fri., blom., int., eksp.design"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/design_tradisjonshaandverk",
+    "kode": "DT",
+    "url": "http://psi.udir.no/kl06/DT",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/DT",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Håndverk, design og produktutvikling",
+      "nb": "Håndverk, design og produktutvikling",
+      "nn": "Handverk, design og produktutvikling"
+    },
+    "kortform": {
+      "default": "Håndverk, design, produktutv.",
+      "nb": "Håndverk, design, produktutv.",
+      "nn": "Handverk, design, produktutv."
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/elektrofag",
+    "kode": "EL",
+    "url": "http://psi.udir.no/kl06/EL",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/EL",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Elektro og datateknologi",
+      "nb": "Elektro og datateknologi",
+      "nn": "Elektro og datateknologi",
+      "en": "Electricity and Electronics",
+      "sme": "Elektrofágat"
+    },
+    "kortform": {
+      "default": "Elektro og datateknologi",
+      "nb": "Elektro og datateknologi",
+      "nn": "Elektro og datateknologi",
+      "en": "Electricity and Electronics",
+      "sme": "Elektrofágat"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/helse_sosialfag",
+    "kode": "HS",
+    "url": "http://psi.udir.no/kl06/HS",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/HS",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Helse- og oppvekstfag",
+      "nb": "Helse- og oppvekstfag",
+      "nn": "Helse- og oppvekstfag",
+      "en": "Healthcare, Childhood and Youth Development",
+      "sme": "Dearvvašvuođa- ja bajásšaddanfága"
+    },
+    "kortform": {
+      "default": "Helse- og oppvekstfag",
+      "nb": "Helse- og oppvekstfag",
+      "nn": "Helse- og oppvekstfag",
+      "en": "Healthcare, Chld. & Yth. Dev.",
+      "sme": "Dearvvašv. ja bajásšaddanfága"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/idrettsfag",
+    "kode": "ID",
+    "url": "http://psi.udir.no/kl06/ID",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/ID",
+    "type": "studieforberedende",
+    "tittel": {
+      "default": "Idrettsfag",
+      "nb": "Idrettsfag",
+      "nn": "Idrettsfag",
+      "en": "Sports and Physical Education ",
+      "sme": "Valáštallanfágat "
+    },
+    "kortform": {
+      "default": "Idrettsfag",
+      "nb": "Idrettsfag",
+      "nn": "Idrettsfag",
+      "en": "Sports and Physical Education ",
+      "sme": "Valáštallanfágat "
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/ikt_medieproduksjon",
+    "kode": "IM",
+    "url": "http://psi.udir.no/kl06/IM",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/IM",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Informasjonsteknologi og medieproduksjon",
+      "nb": "Informasjonsteknologi og medieproduksjon",
+      "nn": "Informasjonsteknologi og medieproduksjon"
+    },
+    "kortform": {
+      "default": "IT og medieproduksjon",
+      "nb": "IT og medieproduksjon",
+      "nn": "IT og medieproduksjon"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/service_samferdsel",
+    "kode": "SS",
+    "url": "http://psi.udir.no/kl06/SS",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/SS",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Service og samferdsel",
+      "nb": "Service og samferdsel",
+      "nn": "Service og samferdsel",
+      "en": "Service and Transport",
+      "sme": "Bálvalus ja johtalus"
+    },
+    "kortform": {
+      "default": "Service og samferdsel",
+      "nb": "Service og samferdsel",
+      "nn": "Service og samferdsel",
+      "en": "Service and Transport",
+      "sme": "Bálvalus ja johtalus"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/kunst_design_arkitektur",
+    "kode": "KD",
+    "url": "http://psi.udir.no/kl06/KD",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/KD",
+    "type": "studieforberedende",
+    "tittel": {
+      "default": "Kunst, design og arkitektur",
+      "nb": "Kunst, design og arkitektur",
+      "nn": "Kunst, design og arkitektur",
+      "en": "Art, design and architecture",
+      "sme": "Dáidda, design ja arkitektuvra"
+    },
+    "kortform": {
+      "default": "Kunst, design og arkitektur",
+      "nb": "Kunst, design og arkitektur",
+      "nn": "Kunst, design og arkitektur",
+      "en": "Art, design and architecture",
+      "sme": "Dáidda, design ja arkitektuvra"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/musikk_dans_drama",
+    "kode": "MD",
+    "url": "http://psi.udir.no/kl06/MD",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/MD",
+    "type": "studieforberedende",
+    "tittel": {
+      "default": "Musikk, dans og drama",
+      "nb": "Musikk, dans og drama",
+      "nn": "Musikk, dans og drama",
+      "en": "Music, Dance and Drama",
+      "sme": "Musihkka, dánsun ja dráma"
+    },
+    "kortform": {
+      "default": "Musikk, dans og drama",
+      "nb": "Musikk, dans og drama",
+      "nn": "Musikk, dans og drama",
+      "en": "Music, Dance and Drama",
+      "sme": "Musihkka, dánsun ja dráma"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/medier_og_kommunikasjon",
+    "kode": "ME",
+    "url": "http://psi.udir.no/kl06/ME",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/ME",
+    "type": "studieforberedende",
+    "tittel": {
+      "default": "Medier og kommunikasjon",
+      "nb": "Medier og kommunikasjon",
+      "nn": "Medium og kommunikasjon",
+      "en": "Media and Communication",
+      "sme": "Mediat ja gulahallan"
+    },
+    "kortform": {
+      "default": "Medier og kommunikasjon",
+      "nb": "Medier og kommunikasjon",
+      "nn": "Medium og kommunikasjon",
+      "en": "Media and Communication",
+      "sme": "Mediat ja gulahallan"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/naturbruk",
+    "kode": "NA",
+    "url": "http://psi.udir.no/kl06/NA",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/NA",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Naturbruk",
+      "nb": "Naturbruk",
+      "nn": "Naturbruk",
+      "en": "Agriculture, Fishing and Forestry",
+      "sme": "Luonddudoallu"
+    },
+    "kortform": {
+      "default": "Naturbruk",
+      "nb": "Naturbruk",
+      "nn": "Naturbruk",
+      "en": "Agricult, Fishing & Forestry",
+      "sme": "Luonddudoallu"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/teknikk_industriell_produksjon",
+    "kode": "TP",
+    "url": "http://psi.udir.no/kl06/TP",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/TP",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Teknologi- og industrifag",
+      "nb": "Teknologi- og industrifag",
+      "nn": "Teknologi- og industrifag",
+      "en": "Technical and Industrial Production",
+      "sme": "Teknihkka ja industriijabuvttadeapmi"
+    },
+    "kortform": {
+      "default": "Teknologi- og industrifag",
+      "nb": "Teknologi- og industrifag",
+      "nn": "Teknologi- og industrifag",
+      "en": "Techn & Industrial Production",
+      "sme": "Teknihkka ja ind.buvttadeapmi"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/restaurant_naeringsmiddelfag",
+    "kode": "RM",
+    "url": "http://psi.udir.no/kl06/RM",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/RM",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Restaurant- og matfag",
+      "nb": "Restaurant- og matfag",
+      "nn": "Restaurant- og matfag",
+      "en": "Restaurant and Food Processing",
+      "sme": "Restauránta- ja biebmofágat"
+    },
+    "kortform": {
+      "default": "Restaurant- og matfag",
+      "nb": "Restaurant- og matfag",
+      "nn": "Restaurant- og matfag",
+      "en": "Restaurant and Food Processing",
+      "sme": "Restauránta- ja biebmofágat"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/salg_service_reiseliv",
+    "kode": "SR",
+    "url": "http://psi.udir.no/kl06/SR",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/SR",
+    "type": "yrkesfaglig",
+    "tittel": {
+      "default": "Salg, service og reiseliv",
+      "nb": "Salg, service og reiseliv",
+      "nn": "Sal, service og reiseliv"
+    },
+    "kortform": {
+      "default": "Salg, service og reiseliv",
+      "nb": "Salg, service og reiseliv",
+      "nn": "Sal, service og reiseliv"
+    }
+  },
+  {
+    "id": "http://psi.udir.no/ontologi/utdanningsprogram/studiespesialisering",
+    "kode": "ST",
+    "url": "http://psi.udir.no/kl06/ST",
+    "data_url": "https://data.udir.no/kl06/v201906/utdanningsprogram/ST",
+    "type": "studieforberedende",
+    "tittel": {
+      "default": "Studiespesialisering",
+      "nb": "Studiespesialisering",
+      "nn": "Studiespesialisering",
+      "en": "Specialization in General Studies",
+      "sme": "Oahppospesialiseren"
+    },
+    "kortform": {
+      "default": "Studiespesialisering",
+      "nb": "Studiespesialisering",
+      "nn": "Studiespesialisering",
+      "en": "General studies specialization",
+      "sme": "Oahppospesialiseren"
+    }
+  }
+]
